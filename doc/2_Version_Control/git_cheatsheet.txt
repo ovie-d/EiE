@@ -1,0 +1,34 @@
+git commit  :
+             Create a commit from staged changes
+             Common args: -m "msg", --amend
+
+git branch :
+           List/create/delete local branches. 
+            Common args: no args = list, <name> = create, rename 
+
+
+git checkout :
+           Switch branches or restore working-tree files
+           Common args: <branch> = switch, -b <name> = create+switch
+
+git pull :
+         Fetch from remote then merge (or rebase) into the current branch.
+            args: <remote> <branch>, --rebase
+
+
+git push:
+        Send local commits/refs to a remote
+        Common args: <remote> <branch>
+
+
+git merge:
+        Merge the named branch/commit into the current branch
+        Common args: <branch>
+
+git rebase:
+        Reapply commits on top of another base to make history linear.
+        args: <branch>
+
+git fetch 
+        Download objects and refs from a remote into your local repo 
+        no args
